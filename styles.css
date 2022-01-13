@@ -4,6 +4,30 @@ div {
     font-size: 20px;
 }
 
+.warning,
+.alert {
+    height: 60px;
+    width: 600px;
+    font-size: 15px;
+    color:palevioletred;
+    background-color:powderblue;
+}
+
+p {
+    text-align: center;
+}
+
+.bg {
+    background-color:moccasin;
+}
+
+p,
+h1,
+ul,
+ol {
+    background-color:lemonchiffon;
+}
+
 body,
 .link-lonk {
     color:mediumslateblue;
@@ -33,17 +57,3 @@ button:hover {
     background-color: lightgreen;
     color: teal;
   }
-
-p,
-h1 {
-    background-color:lemonchiffon
-}
-
-.warning {
-    align-items:center;
-    height: 60px;
-    width: 600px;
-    font-size: 15px;
-    color:palevioletred;
-    background-color:powderblue;
-}
